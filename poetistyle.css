@@ -1,0 +1,77 @@
+body {font-family: sans-serif;
+	background-color: #FFFFFF;
+	font-size: 70%;}
+
+a{text-decoration:none;
+	color: #000000;} 
+a:hover{text-decoration: none ; font-size: 100%; font-style:italic; color:black;} 
+
+
+.nota {color:#DF01D7;
+	font-weight: bold;}
+
+.vuelve {font-size:120%; position:absolute; top: 12px; right: 40px; position:fixed;}
+
+div#centrado {width: 80%; 
+	border-left:#FE2E9A 1px dashed;
+	border-right:#FE2E9A 1px dashed;
+	margin: auto; 
+	padding: 25px;}
+
+div#recuadro {border-color:#FE2E9A; 
+	border-width:1px; 
+	border-style:dashed}
+	
+div#cntr {width: 70%;
+		text-align: center;
+		margin: auto}
+
+.recuadrar {border-color:#FE2E9A; 
+	border-width:1px; 
+	border-style:dashed;
+	padding:10px;}
+	
+.title {position: absolute; 
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	position:fixed;
+	color: #FE2E9A;
+	font-size: 200%;
+	top: 95px; 
+	left: -70px;
+	z-index: 2;}
+	
+.titl {font-size: 105%;
+	font-weight:bold;}
+
+.rosabig {font-size: 200%;
+	color: #FE2E9A;
+	}
+
+
+.times {font-family: "Times New Roman", Times, serif;
+	font-size: 135%;}
+
+.bigtimes {font-family: "Times New Roman", Times, serif;
+	font-size: 300%;
+	font-style: italic;
+	}
+	
+	
+.w3-spin{animation:w3-spin 2s infinite linear;-webkit-animation:w3-spin 100s infinite linear}
+@-webkit-keyframes w3-spin{
+0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
+@keyframes w3-spin{
+0%{-webkit-transform:rotate(0deg);transform: rotate(0deg)}
+100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
+
+
+
+.w3-animate-fading{-webkit-animation:fading 10s infinite;animation:fading 60s infinite}
+@-webkit-keyframes fading{0%{opacity:0.05}50%{opacity:1}100%{opacity:0.05}}
+@keyframes fading{0%{opacity:0.05}50%{opacity:1}100%{opacity:0.05}}
+
+.w3-animate-zoom {-webkit-animation:animatezoom 5s;animation:animatezoom 10s}
+@-webkit-keyframes animatezoom{from{-webkit-transform:scale(0.2)} to{-webkit-transform:scale(1)}}
+@keyframes animatezoom{from{transform:scale(0.2)} to{transform:scale(1)}}
